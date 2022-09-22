@@ -1,0 +1,332 @@
+
+
+$backgroundcolor: #141C26;
+$textcolor: #f2f2f2;
+$rollovercolor: #0487D9;
+$topsectiontextcolor: #141c26;
+$buttonbackgroundcolor: #012E40;
+$homepage-buttonbackgroundcolor: #0487D9;
+$navfontsize: 1.5em;
+$buttonfontsize: 1.2em;
+$fontsize: 1.3em;
+$h2fontsize: 1.5em;
+$pricefontsize: 1.5em;
+
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+//Nav Styling
+
+nav {
+  background-color: $backgroundcolor;
+  display: flex;
+  width: 100%;
+}
+
+nav a {
+  font-size: $navfontsize;
+}
+
+a:hover {
+  color: $rollovercolor;
+  text-decoration: none;
+}
+
+#navmenu {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+
+#logocontainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dropdown-menu {
+  background-color: $backgroundcolor;
+}
+
+.dropdown-item {
+  color: $textcolor;
+}
+
+.dropdown-item:hover {
+  color: $rollovercolor;
+  background-color: transparent;
+  
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+#logocontainer {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  background-color: $backgroundcolor;
+  color: $textcolor;
+}
+
+#logo {
+  width: 80px;
+  padding-top: 10px;
+}
+
+//Top Section Styling//
+
+#carousel {
+  width: 100%;
+}
+
+#topsection {
+  display: flex;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  font-size: $fontsize;
+  color: $topsectiontextcolor;
+}
+#topsectionleft{
+  text-align: inherit;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+#rightsectionrow {
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.boxcard {
+  padding: 5px 5px 5px 5px;
+  border: none;
+}
+
+
+#buttonstyle {
+  font-size: $buttonfontsize;
+  background-color: $buttonbackgroundcolor;
+  border: none;
+  color: $textcolor;
+  
+}
+
+#homepage-buttonstyle {
+  font-size: $buttonfontsize;
+  background-color: $homepage-buttonbackgroundcolor;
+  border: none;
+  color: $textcolor;
+
+}
+
+#buttonstyle:hover {
+  color: $rollovercolor;
+  text-decoration: none;
+}
+
+#homepage-buttonstyle:hover {
+  color: $buttonbackgroundcolor;
+
+}
+
+
+//Text Carousel
+
+#textcarousel {
+  width: 100%;
+  height: auto;
+  background-color: $backgroundcolor;
+  text-align: center;
+  color: $textcolor;
+}
+
+#textcarousel-item {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+//Mid Section Styling
+
+#midsection {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#galleryrow {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#galleryrowtwo {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#master {
+  width: 100%;
+  padding-bottom: 30px;
+  text-align: center;
+  
+}
+
+h2 {
+  font-size: $h2fontsize;
+}
+//Modal Styling
+
+#sendbutton {
+  background-color: $homepage-buttonbackgroundcolor;
+  border: none;
+}
+
+#closebutton {
+  border: none;
+  background-color: $homepage-buttonbackgroundcolor;
+}
+
+//Footer Styling
+
+footer {
+  
+  background-color: $backgroundcolor;
+  height: auto;
+  font-size: $navfontsize;
+  color: $textcolor;
+}
+
+#footercontainer {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: $backgroundcolor;
+}
+
+//Contact Button Row
+#footerrow {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#footerleft,
+a {
+  text-decoration: none;
+  color: $textcolor;
+}
+
+#footermiddle a {
+  color: $textcolor;
+  text-decoration: none;
+}
+
+#footerbutton {
+  font-size: 0.8em;
+  background-color: $homepage-buttonbackgroundcolor;
+  border: none;
+  text-decoration: none;
+  color: $textcolor;
+}
+
+#footerbutton:hover {
+  color: $buttonbackgroundcolor;
+
+}
+
+//Social Media Icons Row
+#socialmediaicons {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+#socialmediaicons,
+p {
+  padding-right: 10px;
+}
+
+#svgicons {
+  height: 30px;
+  width: 30px;
+}
+
+//Portfolio Pages
+
+#portfoliotoprow {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#portfoliomiddlerow {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#portfoliobottomrow {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+//Contact Page
+
+#contactsection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: $fontsize;
+}
+
+#contactrow {
+  display: flex;
+}
+
+#emaillink {
+  color: #1b2833;
+}
+#maprow {
+  padding-top: 50px;
+  text-align: center;
+}
+
+//Pricing Page
+
+#pricesection {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-size: $fontsize;
+}
